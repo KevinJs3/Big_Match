@@ -1,0 +1,11 @@
+id_categorie,nom,id_parent
+1,Musique,NULL
+2,Sport,NULL
+3,Art,NULL
+4,Cinéma,NULL
+5,Cuisine,NULL
+6,Rock,1
+7,Jazz,1
+8,Football,2
+9,Peinture,3
+10,Théâtre,4

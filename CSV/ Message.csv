@@ -1,0 +1,6 @@
+id_message,contenu,id_expediteur,id_destinataire
+1,Salut, ça va?,1,2
+2,Oui, et toi?,2,1
+3,On se voit demain?,3,4
+4,Avec plaisir!,4,3
+5,Merci pour hier,5,6
