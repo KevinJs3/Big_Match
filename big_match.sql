@@ -102,18 +102,21 @@ CREATE TABLE interaction(
     id_type_interaction INT NOT NULL,
     id_user_cible INT NOT NULL,
     id_user_auteur INT NOT NULL,
+    -- ATTENTION : ne pas faire de CHECK ou de clé composite car on veut le couple (a,b) et (b,a)
     FOREIGN KEY (id_type_interaction) REFERENCES Type_interaction(id_type),
     FOREIGN KEY (id_user_cible) REFERENCES Type_interaction(id_type),
     FOREIGN KEY (id_user_auteur) REFERENCES Type_interaction(id_type),
 );
 CREATE TABLE Match(
+    -- à voir si on garde
     id_match INT PRIMARY KEY,
     date_match DATE,
     -- ici il n'y pas de noms spéciaux car personne ne subit ou fait l'action 
     id_user_1 INT NOT NULL,
     id_user_2 INT NOT NULL,
     FOREIGN KEY (id_user_1) REFERENCES Utilisateur(id_utilisateur),
-    FOREIGN KEY (id_user_2) REFERENCES Utilisateur(id_utilisateur)
+    FOREIGN KEY (id_user_2) REFERENCES Utilisateur(id_utilisateur),
+    CHECK (id_user_1 < id_user_2)
 );
 CREATE TABLE Message(
     id_message INT PRIMARY KEY, 
@@ -144,11 +147,4 @@ CREATE TABLE Donnee_utilisateur(
     PRIMARY KEY (id_donnee, id_utilisateur) 
     -- Attention : ne pas oublier la clé composite pour ne pas avoir de doublons ! 
 );
-
-
-
-
-
-
-
 
