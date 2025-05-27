@@ -1,0 +1,13 @@
+id_evenement,prix,descriptions,date_event,id_lieu
+1,15.50,Soirée jazz avec groupe live,2023-06-15,1
+2,0.00,Pique-nique dans le parc,2023-07-20,3
+3,25.00,Concert pop en plein air,2023-08-10,5
+4,12.00,Visite guidée du musée,2023-09-05,4
+5,8.00,Projection de film indépendant,2023-06-30,9
+6,20.00,Dîner gastronomique,2023-07-15,2
+7,10.00,Atelier peinture,2023-08-22,7
+8,30.00,Match de football,2023-09-12,8
+9,18.00,Pièce de théâtre classique,2023-10-01,6
+10,5.00,Soirée dansante,2023-10-15,4
+11,0.00,Opéra Garnier,2025-8-13,1
+12,0.00,Mk2,2025-8-13,1

@@ -1,11 +1,11 @@
-id_lieu,type_lieu,nom
-1,Bar,Le Petit Bar
-2,Musée,Louvre
-3,Parc,Central Park
-4,Salle de concert,Accor Arena
-5,Cinéma,Pathé
-6,Salle de sport,Fitness Park
-7,Restaurant,Le Gourmet
-8,Théâtre,Odéon
-9,Plage,Copacabana
-10,Stade,Stade de France
+id_lieu,type_lieu,nom,id_ville
+1,Bar,Le Petit Paris,1
+2,Restaurant,La Brasserie Lyonnaise,2
+3,Parc,Parc Borély,3
+4,Musée,Musée des Augustins,4
+5,Plage,Promenade des Anglais,5
+6,Théâtre,Théâtre Graslin,6
+7,Opéra,Opéra National du Rhin,7
+8,Stade,Stade de la Mosson,8
+9,Cinéma,Mégaplex Bordeaux,9
+10,Club,Le Splendid,10
